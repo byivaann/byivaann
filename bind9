@@ -1,0 +1,9 @@
+zone "midominio.net" {
+type master;
+file "directa.midominio";
+};
+
+zone "2.168.192.in-addr.arpa" {
+type master;
+file "inversa.midominio";
+};
